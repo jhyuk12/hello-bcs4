@@ -1,9 +1,9 @@
 console.log("Hellow, BCS4!");
 
-const myName = document. getElementById("my-name");
+let h2 = document.createElement("h2");
 
-const h3 = document.createElement("h3");
+let dom = document.getElementById("dom");
 
-h3.innerText = "My name is h662.";
+h2.innerText = "My name is h662.";
 
-myName.appendcChild(h3);
+dom.appendChild(h2);
